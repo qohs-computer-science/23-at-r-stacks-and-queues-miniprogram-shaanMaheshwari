@@ -33,7 +33,7 @@ class StackQueueMini {
     int num5 = myObj.nextInt();
     numStack.push(num5);
        
-    System.out.println(numStack);
+    System.out.println("Origianl Stack: " + numStack);
     
     Stack<Integer>tempStack = new Stack<Integer>();
     
@@ -93,7 +93,7 @@ class StackQueueMini {
     int q10 = myObj.nextInt();
     numQueue.add(q10);
 
-    System.out.println(numQueue);
+    System.out.println("Origianl Queue: " + numQueue);
 
     Queue<Integer> tempQueue1 = new LinkedList<>();
     Queue<Integer> tempQueue2 = new LinkedList<>();
